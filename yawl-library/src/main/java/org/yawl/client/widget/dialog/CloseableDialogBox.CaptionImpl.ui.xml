@@ -1,0 +1,26 @@
+<!--
+  ~ This is part of YAWL - Yet Another Widget Library.
+  ~
+  ~ Copyright 2008-2014 Geosparc nv, http://www.geosparc.com/, Belgium.
+  ~
+  ~ The program is available in open source according to the 
+  ~ Apache License v2. All contributions in this program are covered
+  ~ by the YAWL Contributors License Agreement. For full licensing
+  ~ details, see LICENSE in the project root.
+-->
+
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder" xmlns:g="urn:import:com.google.gwt.user.client.ui">
+
+	<ui:with field="resource" type="org.yawl.client.widget.dialog.CloseableDialogBoxResource"/>
+
+	<g:HorizontalPanel width="100%" styleName="Caption">
+		<g:cell verticalAlignment="ALIGN_MIDDLE" horizontalAlignment="ALIGN_RIGHT">
+			<g:SimplePanel ui:field="titleElement" styleName="{resource.css.closeableDialogTitle}" />
+		</g:cell>
+
+		<g:cell verticalAlignment="ALIGN_MIDDLE" horizontalAlignment="ALIGN_LEFT">
+			<g:Button ui:field="closeIcon" styleName="{resource.css.closeableDialogCloseIcon}">x</g:Button>
+		</g:cell>
+	</g:HorizontalPanel>
+
+</ui:UiBinder> 

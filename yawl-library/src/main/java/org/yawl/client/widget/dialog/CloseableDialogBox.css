@@ -1,0 +1,38 @@
+/*
+ * This is part of YAWL - Yet Another Widget Library.
+ *
+ * Copyright 2008-2014 Geosparc nv, http://www.geosparc.com/, Belgium.
+ *
+ * The program is available in open source according to the 
+ * Apache License v2. All contributions in this program are covered
+ * by the YAWL Contributors License Agreement. For full licensing
+ * details, see LICENSE in the project root.
+ */
+
+@external .yawl-closeableDialogCloseIcon;
+@external .yawl-closeableDialogTitle;
+
+.yawl-closeableDialogCloseIcon {
+	cursor: pointer;
+	margin: 0px 0px 0px 15px;
+	padding: 0px 1px;
+	border: 1px solid #E0E0E0;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	font-size: 16px;
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: 700;
+	color: #999999;
+	line-height: 15px;
+	background: transparent;
+}
+
+.yawl-closeableDialogCloseIcon:hover {
+    border: 1px solid #C0C0C0;
+	color: #666666;
+}
+
+.yawl-closeableDialogTitle {
+	float: left;
+}
